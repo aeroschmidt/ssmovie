@@ -1,0 +1,34 @@
+header {
+    height: 60px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.ssmovie-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.ssmovie-nav-content h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.ssmovie-nav-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ssmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.ssmovie-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
