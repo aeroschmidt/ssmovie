@@ -5,14 +5,14 @@ package com.devsuperior.ssmovie.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.devsuperior.ssmovie.entities.Movie;
+import com.devsuperior.ssmovie.entities.User;
 
 /**
  * @author sabrina
  *
  */
-public interface MovieRepository extends JpaRepository<Movie, Long>{
+public interface UserRepository extends JpaRepository<User, Long>{
 
-	
+	User findByEmail(String email);
 
 }
